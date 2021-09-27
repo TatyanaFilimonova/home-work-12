@@ -9,8 +9,6 @@ class CovidHTMLParser(HTMLParser):
     def __init__(self):
         super().__init__()
         self.title = ''
-        self.start_text_pos = 0
-        self.end_text_pos = 0
         self.write_title_data = False
         self.is_editor_div = False
         self.body = ''
