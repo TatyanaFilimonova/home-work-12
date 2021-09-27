@@ -6,8 +6,6 @@ class CurrencyHTMLParser(HTMLParser):
     def __init__(self):
         super().__init__()
         self.title = ''
-        self.start_text_pos = 0
-        self.end_text_pos = 0
         self.write_title_data = False
         self.is_save_table = False
         self.body=''
