@@ -8,8 +8,12 @@ Set of sources stored at settings.py.
 All the sources collected and parsed in corutines.
 
 Disclamer: HTMLparser isn't really async, because feed() method call to methods that really are blocking. 
-To awoid this there are 2 option: to rewrite of HTMLparser class totlly  or to try find already customized one.
+To avoid this there are 2 option: 
 
-I didn't find the requirement to awoid blocking operations at all in HW12 description, so I've decided to left it as is.
+    - rewrite the HTMLparser class totally
+
+    - try to find already customized one.
+
+I didn't find the requirement to avoid blocking operations at all in HW12 description. So I've decided to left it as is.
 
 So run app.py and find the feed on http://127.0.0.1:5000
